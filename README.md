@@ -1,5 +1,5 @@
 # Numerai Portfolio Optimizer
-<a target="_blank" href="https://colab.research.google.com/blob/github/eses-wk/numerai-portfolio-opt/Portfolio_optimizer.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/eses-wk/numerai-portfolio-opt/blob/main/Portfolio_optimizer.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
