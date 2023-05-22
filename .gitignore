@@ -1,0 +1,5 @@
+# Numerai API secrets
+.env
+
+# Local testing folder
+local_test/
