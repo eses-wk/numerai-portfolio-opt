@@ -5,15 +5,15 @@
 
 # Why use a portfolio optimizer?
 Are you:
-- Testing 20+ live models but don't know how to best allocate your NMR for staking?
-- Suffered from BIG burn in 1-2 over-staked models, while all the other models were doing well?
-- Uncertain about what metric multiplier (0,1x,2x) to pick for your models?
+- Testing 20+ live models but don't know how to best allocate your NMR stakes?
+- Suffered from BIG burn in 1-2 over-staked models, while all the other models were doing fine?
+- Not sure what Numerai corr/ True Contribution metric multiplier (0,1x,2x) to pick for your models?
 
 **Portfolio Optimizer is here to help!**
 
 Portfolio Optimization originates from Harry Markowitz's Model Portfolio Theory (1952). The objective is to find the **optimal weights of a set of assets (Numerai models)** to: 
 1. **Maximize the risk-adjusted return** (Sharpe ratio) 
-    - Higher Sharpe ratio => better model (return is yummy)
+    - Higher Sharpe ratio => better model (return is yummy😋)
 2. **Minimize the volatility** (standard deviation)
     - Lower standard deviation => better model (burn is painful...)
 
