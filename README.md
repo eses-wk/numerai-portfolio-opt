@@ -3,31 +3,36 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-# Why use a portfolio optimizer?
+# Why use a Portfolio Optimizer?
 Are you:
-- Testing 20+ live models but don't know how to best allocate your NMR stakes?
-- Suffered from BIG burn in 1-2 over-staked models, while all the other models were doing fine?
-- Not sure what Numerai corr/ True Contribution metric multiplier (0,1x,2x) to pick for your models?
+- Regularly submitting 20+ live models but don't know how to best allocate your NMR stakes?😦
+- Don't know metric multiplier (0.5x, 1x, 2x) to pick for your models to maximize risk-adjusted return? 🤨
+- Suffered from BIG burn in 1-2 over-staked models, while all the other models were doing fine?😤🔥🚒
+- Suffered from prolonged burn in bad market regime, want to control your overall drawdown, minimize your risks?🥲
+
 
 **Portfolio Optimizer is here to help!**
 
-Portfolio Optimization originates from Harry Markowitz's Model Portfolio Theory (1952). The objective is to find the **optimal weights of a set of assets (Numerai models)** to: 
-1. **Maximize the risk-adjusted return** (Sharpe ratio) 
+Portfolio Optimization originates from Harry Markowitz's Model Portfolio Theory (1952). The core idea is to find a balance between the risk-return tradeoff, through constructing an efficient set of portfolios - **Efficient Frontier**. The concept is widely used in the financial industry, and it is also applicable to Numerai model staking. It takes into account the **correlation between models**, and **historical return**, to find the optimal weights of the models to build your portfolio.
+
+Common types of portfolios:
+1. **Maximize the risk-adjusted return** (Max Sharpe ratio=> mean return / standard deviation) 
     - Higher Sharpe ratio => better model (return is yummy😋)
-2. **Minimize the volatility** (standard deviation)
+2. **Minimize the volatility** (Min standard deviation)
     - Lower standard deviation => better model (burn is painful...)
 
 <img src="assets/example_ef.png" alt="Example Efficient Frontier" />
 
 # How does it work?
-- Step 1: Extract model performance metrics (Numerai Correlation / True Contribution) using Numerai API (or compute model performance from validation set)
+- Step 1: Extract model performance metrics (Numerai Corr / True Contribution) using Numerai API (or compute model performance from validation set)
 - Step 2: Use the optimizer to find the optimal weights of the models
 - Step 3: Review and select your optimal portfolio mix for model staking
 
-# Status - Work in progress
-- Currently only support portfolio mix with fixed **1x** Correlation Multiplier
-- WIP: add support for variable Correlation Multiplier (corr + TC with different multiplier)
-
+# Development Status
+- [x] Support portfolio optimization for live models
+- [x] Support simulating different allocation of metrics multiplier (Numerai Correlation: 0.5x, 1x | True Contribution: 0x, 0.5x, 1x, 2x, 3x)
+- [ ] Support portfolio optimization for on validation set
+- [ ] Add flexibility for portfolio constraints (return vs. risk tradeoff)
 
 # Reference 
 - [bor's R example of a Numerai portfolio optimizer](https://github.com/BorisVSchmid/vladthestaker)
