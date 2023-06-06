@@ -5,10 +5,10 @@
 
 # Why use a Portfolio Optimizer?
 Are you:
-- Regularly submitting 20+ live models but don't know how to best allocate your NMR stakes?😦
-- Don't know metric multiplier (0.5x, 1x, 2x) to pick for your models to maximize risk-adjusted return? 🤨
-- Suffered from BIG burn in 1-2 over-staked models, while all the other models were doing fine?😤🔥🚒
-- Suffered from prolonged burn in bad market regime, want to control your overall drawdown, minimize your risks?🥲
+- Regularly submitting 20+ live models but don't know how to best allocate your NMR stakes?🤔
+- Don't know metric multiplier (0.5x, 1x, 2x) to pick for your models to maximize risk-adjusted return? 
+- Suffered from BIG burn in 1-2 over-staked models, while all the other models were doing fine?🔥
+- Suffered from prolonged burn in bad market regime, want to control your overall drawdown, minimize your risks?
 
 
 **Portfolio Optimizer is here to help!**
